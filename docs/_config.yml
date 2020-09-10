@@ -1,5 +1,5 @@
 # Site Variables
-url: https://vikpe.org/github-pages-starter
+url: https://popdemtech.com
 
 # Custom settings (GitHub Pages starter)
 custom_settings:
@@ -7,8 +7,8 @@ custom_settings:
   is_development: false
 
   # optional/convenience
-  name: GitHub Pages starter
-  description: Fast builds, live reload, GitHub Pages ready.
+  name: Popular Demand, LLC
+  description: The things you want. Built.
 
 # Handling / Reading
 safe: true

@@ -1,11 +1,16 @@
 [
   {
     "title": "Live reload",
-    "description": "Changes to HTML and CSS (SASS) are instantly reflected in the browser."
+    "description": "Changes to HTML and CSS (SASS) are instantly reflected in the browser.",
+    "image": "jekyll.svg"
   },
   {
     "title": "Fast renders",
-    "description": "SASS is compiled using Gulp for fast render time."
+    "description": "SASS is compiled using Gulp for fast render time.",
+    "image": {
+      "src": "assets/img/jekyll.svg",
+      "alt": "this is the alt for fast renders image"
+    }
   },
   {
     "title": "Asset minification",

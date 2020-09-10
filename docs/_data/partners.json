@@ -1,0 +1,43 @@
+[{
+    "name": "High Ground Tech | Business",
+    "url": "https://highground.tech",
+    "description": "<p>High Ground provides the technical understanding and support necessary to bring new and existing business practices to the 21st century with industry standard services — Google Suite, Slack, Invoice Ninja and more.</p><p>High Ground also builds and maintains new and existing websites. See highground.tech for more.</p>",
+    "primaryService": "web development",
+    "services": [
+        "business modernization",
+        "business websites",
+        "custom software"
+    ],
+    "logo": {
+        "src": "assets/img/high_ground_tech.png",
+        "alt": "logo of high ground tech"
+    }
+},{
+    "name": "High Ground Tech | Entrepreneur",
+    "url": "https://highground.tech",
+    "description": "<p>For entry-level business, High Ground provides website, ecommerce, brand consultation, logo design, and business resources.</p><p>If your new business requires a technology that is not currently on the market, High Ground provides services from idea consultation through prototyping and development.</p>",
+    "primaryService": "business development",
+    "services": [
+        "ecommerce websites",
+        "brand consult and design",
+        "custom software",
+        "business resources"
+    ],
+    "logo": {
+        "src": "assets/img/high_ground_tech.png",
+        "alt": "logo of high ground tech"
+    }
+}, {
+    "name": "High Ground Tech | Community",
+    "url": "https://highground.tech",
+    "primaryService": "web developer training",
+    "services": [
+        "developer training",
+        "developer apprenticeship",
+        "community contributions"
+    ],
+    "logo": {
+        "src": "assets/img/high_ground_tech.png",
+        "alt": "logo of high ground tech"
+    }
+}]
