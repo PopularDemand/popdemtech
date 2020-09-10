@@ -1,6 +1,7 @@
 [{
     "name": "High Ground Tech | Business",
     "url": "https://highground.tech",
+    "email": "team@highground.tech",
     "description": "<p>High Ground provides the technical understanding and support necessary to bring new and existing business practices to the 21st century with industry standard services — Google Suite, Slack, Invoice Ninja and more.</p><p>High Ground also builds and maintains new and existing websites. See highground.tech for more.</p>",
     "primaryService": "web development",
     "services": [
@@ -15,7 +16,8 @@
 },{
     "name": "High Ground Tech | Entrepreneur",
     "url": "https://highground.tech",
-    "description": "<p>For entry-level business, High Ground provides website, ecommerce, brand consultation, logo design, and business resources.</p><p>If your new business requires a technology that is not currently on the market, High Ground provides services from idea consultation through prototyping and development.</p>",
+    "email": "team@highground.tech",
+    "description": "<p>For entry-level business, High Ground provides websites, e-commerce, brand consultation, logo design, and business resources.</p><p>If your new business requires a technology that is not currently on the market, High Ground provides services from idea consultation through prototyping and development.</p>",
     "primaryService": "business development",
     "services": [
         "ecommerce websites",
@@ -30,11 +32,13 @@
 }, {
     "name": "High Ground Tech | Community",
     "url": "https://highground.tech",
+    "email": "team@highground.tech",
+    "description": "<p>For driven individuals ready to take their career to new heights, High Ground privides in-demand web development training, mentorship, and portfolio building.</p><p>Advanced students are provided attentive job search guidance and may be offered a position in our competitive apprenticeship program.</p>",
     "primaryService": "web developer training",
     "services": [
         "developer training",
         "developer apprenticeship",
-        "community contributions"
+        "open-source and community contributions"
     ],
     "logo": {
         "src": "assets/img/high_ground_tech.png",

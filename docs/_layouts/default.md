@@ -25,8 +25,9 @@
     <body id="top">
 
         <div class="app-center-wrapper">
-
+            {% comment %}
             {% include header.md %}
+            {% endcomment %}
 
             <main id="app-site-main">
                 <article>

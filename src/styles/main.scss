@@ -1,10 +1,22 @@
-$app-layout-border: 2px solid rebeccapurple;
+$app-layout-border: 2px solid black;
 $app-bg-color: #f5f7f9;
+
+// responsive utilities
+// $screen-sm-min: 576px;
+// $screen-md-min: 768px;
+$screen-lg-min: 992px;
+// $screen-xl-min: 1200px;
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
 
 body {
   background-color: $app-bg-color;
   font-family: 'Roboto', sans-serif;
-  font-size: 22px;;
+  font-size: 1.4em;
 }
 
 hr {
@@ -13,6 +25,10 @@ hr {
 
 h1{
   margin: 1.5em 0 .5em;
+}
+
+h3 {
+  font-size: 1.45em;
 }
 
 .app-text-strong {
@@ -33,7 +49,8 @@ h1{
 }
 
 #app-site-footer {
-  border-top: $app-layout-border
+  border-top: $app-layout-border;
+  text-align: center;
 }
 
 #app-site-header,
@@ -57,24 +74,54 @@ h1{
 
 .partner-card {
   display: flex;
-  margin: 3em 0;
+  flex-direction: column-reverse;
+  padding: 0 1em;
+  margin-bottom: 2em;
+
+  @include lg {
+    flex-direction: row;
+  }
 
   .text-container {
-    width: 75%;
+    @include lg {
+      width: 75%;
+      margin-right: 2em;
+    }
   }
 
   .image-container {
-    width: 25%;
+    @include lg {
+      width: 25%;
+    }
   }
 
   .image-container img {
-    width: 250px;
+    display: block;
+    width: 75%;
     margin: auto;
+
+    @include lg {
+      width: 100%;
+    }
+  }
+
+  .meta {
+    font-size: .8em;
+    line-height: .8;
   }
 
   .services-list {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    line-height: 1.2;
+    margin-bottom: 0;
+
+    @include lg {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+
+  .services-list li:not(:last-of-type) {
+    margin-bottom: .5em;
   }
 }
